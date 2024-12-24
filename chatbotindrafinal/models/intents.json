@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "salam",
+         "patterns": ["Hi", "Hallo", "Hey", "Heyho", "Apakah ada orang disana?", "Hello", "Haii", "Apa kabar", "Whats up", "Moshi moshi", "Wassap", "pagi", "siang", "sore", "malam"],
+         "responses": ["Hello!", "Hallo juga", "Hai,kabar baik!", "Hi, ada yang bisa saya bantu?", "Hai! bot di sini. Mau tau informasi tentang apa nih?", "Helo! Ini bot. Lagi kepo tentang depresi ya?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See ya", "See you", "Sampai bertemu lagi", "Selamat tinggal", "Dadah", "Goodbye", "Aku pamit ya"],
+         "responses": ["Bye bye", "Sedih kalau kamu pergi :(", "Nanti kita berbicara lagi ya", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "terimakasih",
+         "patterns": ["Terima kasih","Terimakasih", "Terimakasih sudah membantu", "Makasih", "Thanks", "Thank you", "Nuhun", "Suwun"],
+         "responses": ["Terima kasih kembali :)", "Sama-sama ya", "Oke, senang bisa membantu"],
+         "context_set": ""
+        },
+        {"tag": "depresi",
+         "patterns": ["Apa itu depresi?", "Apa sih depresi itu?", "Pengertian depresi itu apa?"],
+         "responses": ["Depresi merupakan sebuah penyakit yang ditandai dengan rasa sedih yang berkepanjangan dan kehilangan minat terhadap kegiatan-kegiatan yang biasanya kita lakukan dengan senang hati"],
+         "context_set": ""
+        },
+        {"tag": "siapa",
+         "patterns": ["siapa saja yang terkena deprsi?", "kalangan yang terkena depresi?"],
+         "responses": ["Anak-anak", "Remaja", "Orang dewasa", "Lansia", "Semua kalangan"],
+         "context_set": ""
+        },
+        {"tag": "dimana",
+         "patterns": ["Dimana terjadi masalah depresi?"],
+         "responses": ["Lingkungan sekitar", "Lingkungan bermain", "Lingkungan sekolah", "Lingkungan kerja"],
+         "context_set": ""
+        },
+        {"tag": "gejala_depresi",
+         "patterns": ["Tanda-tanda depresi?", "Bagaimana gejala depresi?", "Apakah terjadi gejala khusus saat depresi?", "Apa gejala depresi ringan?", "Apa gejala depresi berat?"],
+         "responses": ["Gejala fisik: 1.Gelisah atau sulit berkonsentrasi. 2.Lelah atau tidak ada energi. 3.Perubahan selera makan atau pola tidur. 4.Kesulitan melakukan kegiatan sehari-hari. 4.Rasa nyeri atau sakit yang muncul tanpa sebab tertentu. ", "Gejala emosional dan mental: 1.Rasa sedih, cemas, atau mudah marah yang terus-menerus. 2.Menarik diri dari orang lain dan merasa kesepian. 3.Mengambil tindakan-tindakan berisiko yang tidak biasanya dilakukan. 4.Menyakiti diri atau memiliki pikiran untuk mengakhiri hidup. 5.Hilang minat untuk bergaul dan melakukan kegiatan yang biasanya disukai", "Gejala depresi ringan: 1.Merasa putus asa. 2.Merasa sangat sedih. 3.Merasa tidak termotivasi. 4.Merasa lelah luar biasa. 5.Merasa bersalah atau tidak berharga.", "Gejala depresi berat: 1.Mudah marah atau sensitif. 2.Mudah menangis. 3.Sulit berkonsentrasi, berpikir, dan mengambil keputusan. 4.Suasana hati buruk atau sedih berkelanjutan."],
+         "context_set": ""
+        },
+        {"tag": "gejala_depresi_anak",
+         "patterns": ["Apa gejala depresi yang terjadi pada anak-anak?"],
+         "responses": ["Pada anak-anak yang lebih kecil, gejala depresi mungkin termasuk kesedihan, mudah tersinggung, clinginess atau susah berpisah, khawatir, sakit dan nyeri, menolak pergi ke sekolah, atau kekurangan berat badan."],
+         "context_set": ""
+        },
+        {"tag": "gejala_depresi_remaja",
+         "patterns": ["Apa gejala depresi yang terjadi pada remaja?"],
+         "responses": ["Depresi pada remaja, gejalanya mungkin termasuk kesedihan, mudah tersinggung, merasa negatif dan tidak berharga, kemarahan, nilai yang buruk atau sering tidak masuk sekolah.", "Depresi pada remaja dapat ditandai dengan perasaan disalahpahami dan sangat sensitif, menggunakan narkoba atau alkohol, makan atau tidur berlebihan, menyakiti diri sendiri, kehilangan minat. dalam aktivitas normal, dan menghindari interaksi sosial."],
+         "context_set": ""
+        },
+        {"tag": "gejala_depresi_lansia",
+         "patterns": ["Apa gejala depresi yang terjadi pada lansia?"],
+         "responses": ["1.Kesulitan memori atau perubahan kepribadian. 2.Sakit atau nyeri fisik. 3.Kelelahan, kehilangan nafsu makan, masalah tidur atau kehilangan minat pada seks yang bukan disebabkan oleh kondisi medis atau pengobatan. 4.Seringkali ingin tinggal di rumah, daripada keluar untuk bersosialisasi atau melakukan hal-hal baru. 5.Pikiran atau perasaan bunuh diri, terutama pada pria yang lebih tua."],
+         "context_set": ""
+        },
+        {"tag": "jenis_depresi",
+         "patterns": ["Apa saja jenis depresi?","jenis-jenis depresi"],
+         "responses": ["Gangguan depresi mayor", "Gangguan depresi persisten", "Gangguan depresi bipolar", "Gangguan depresi bipolar II", "Depresi pasca melahirkan"],
+         "context_set": ""
+        },
+        {"tag": "penyebab_depresi",
+         "patterns": ["Apa penyebab depresi?"],
+         "responses": ["Masalah kesehatan fisik", "Pengalaman dan trauma masa kecil", "Peristiwa kehidupan yang penuh tekanan", "Menderita penyakit kronis atau serius", "Ketergantungan jenis obat tertentu", "Berakhirnya hubungan, ditinggal oleh orang dicintai, masalah keuangan, dan sebagainya", "Diintimidasi, bullying atau diserang"],
+         "context_set": ""
+        },
+        {"tag": "dampak_depresi",
+         "patterns": ["Dampak dari depresi apa?"],
+         "responses": ["Seseorang dengan depresi cenderung mencerna persoalan hidup dari sisi gelapnya, memandang pesimis terhadap masa depan, berpikir negatif tentang diri sendiri maupun orang lain. ", "Seseorang yang mengalami depresi cenderung sulit berpikir objektif dan rasional, pikiran otomatisnya didominasi oleh ketidakberdayaan hingga keinginan untuk menyakiti diri sendiri dan bunuh diri.", "Depresi dapat memengaruhi kesehatan fisik. Kecemasan yang berlebihan akan memacu hormon tertentu dalam tubuh, menyebabkan denyut jantung meningkat dan tekanan darah berlebihan.", "Depresi dapat menurunkan daya tahan tubuh, akibatnya tubuh gampang terkena penyakit."],
+         "context_set": ""    
+        },
+        {"tag": "mengatasi_depresi",
+         "patterns": ["Bagaimana mengatasi depresi?", "Cara mengatasi depresi?", "Apakah depresi dapat diatasi?", "Mengatasi depresi gimana ya?", "Adakah cara supaya tidak depresi?"],
+         "responses": ["Cara mengatasi depresi secara alami: 1.Berolahraga secara teratur. 2.Pola makan sehat dan konsumsi makanan bergizi. 3.Pastikan tidur cukup. 4.Cari cara untuk menghadapi masalah atau kesulitan. 5.Lakukan aktivitas yang disukai", "Beberapa cara mengatasi depresi: 1.Berpikir positif. 2.Mencari teman curhat. 3.Perlahan menyelesaikan masalah. 4.Melakukan hal baru. 5.Pergi berlibur. 6.Meditasi"],
+         "context_set": ""
+        },
+        {"tag": "diagnosis_depresi",
+         "patterns": ["Diagnosis depresi"],
+         "responses": ["Pemeriksaan fisik. Dokter mungkin akan melakukan pemeriksaan fisik dan mengajukan pertanyaan soal kesehatan Anda. Dalam beberapa kasus, depresi mungkin berhubungan dengan kesehatan fisik tertentu.", "Tes laboratorium. Dokter mungkin akan melakukan tes darah lengkap atau menguji tiroid Anda untuk memastikannya berfungsi dengan baik", "Evaluasi kejiwaan. Spesialis kesehatan mental akan bertanya tentang gejala, pikiran, perasaan, dan pola perilaku Anda. Anda mungkin diminta mengisi kuesioner untuk membantu menjawab pertanyaan-pertanyaan ini.", "DSM-5. Tenaga medis dapat menggunakan kriteria untuk menentukan depresi yang tercantum dalam Manual Diagnostik dan Statistik Gangguan Mental (DSM-5), yang diterbitkan oleh American Psychiatric Association.", "PPDGJ. Tenaga medis menggunakan kriteria tersebut, yang juga disebut dengan PPDGJ (Pedoman Praktis Diagnosis Gangguan Jiwa)."],
+         "context_set": ""
+        },
+        {"tag": "pengobatan_depresi",
+         "patterns": ["Apa saja pilihan pengobatan untuk depresi?"],
+         "responses": ["Obat-obatan", "Psikoterapi", "Terapi elektrokonvulsif"],
+         "context_set": ""
+        },
+        {"tag": "tes_mengetahui_depresi_atau_tidak",
+         "patterns": ["Tes untuk mengetahui apakah kita depresi atau tidak?"],
+         "responses": ["Beck Depression Inventory (BDI) adalah salah satu tes psikometri yang digunakan untuk mengukur tingkat depresi seseorang."],
+         "context_set": ""
+        },
+        {"tag": "skor_depresi",
+         "patterns": ["Berapa skor depresi?"],
+         "responses": ["Skor 0-4 menunjukkan kondisi normal, 5-8 depresi ringan, 9-11 depresi sedang, dan 12-15 berarti depresi parah."],
+         "context_set": ""
+        },
+        {"tag": "depresi_kambuh",
+         "patterns": ["Apa yang dialami ketika depresi kambuh?"],
+         "responses": ["suasana hati sedih bekepanjangan. kehilangan minat atau ketertarikan pada hal yang dulunya menghibur. mudah merasa cemas. merasa hidup tidak ada harapan."],
+         "context_set": ""
+        },
+        {"tag": "bahaya_depresi",
+         "patterns": ["Apakah depresi itu berbahaya?"],
+         "responses": ["Depresi yang tidak diatasi, akan berbahaya bagi diri sendiri, maupun yang ada di sekitarnya."],
+         "context_set": ""
+        },
+        {"tag": "lama_efek_depresi",
+         "patterns": ["Berapa lama efek depresi?"],
+         "responses": ["Beberapa orang mungkin sembuh dalam beberapa minggu atau bulan dan sisanya mungkin butuh sampai bertahun tahun.", "Melansir dari WebMD, sekitar 20-30 persen orang yang mengalami depresi, gejalanya tidak sepenuhnya hilang."],
+         "context_set": ""
+        },
+        {"tag": "obat_depresi",
+         "patterns": ["Apa obat anti depresan?"],
+         "responses": ["Selective serotonin reuptake inhibitors (SSRIs), misalnya escitalopram dan fluoxetine.", "Serotonin-norepinephrine reuptake inhibitors (SNRIs), contohnya duloxetine, dan venlafaxine.", "Tricyclic antidepressant, misalnya amitriptyline.", "Monoamine oxidase inhibitors (MAOIs), seperti phenelzine dan isocarboxazid", "Atypical antidepressant, seperti mirtazapine", "Tetracyclic antidepressant, seperti maprotiline"],
+         "context_set": ""
+        },
+        {"tag": "psikiater",
+        "patterns": ["Apakah depresi harus ke psikiater?","Kapan harus ke psikiater?"],
+        "responses": ["Jika gangguan psikologis yang dirasakan membutuhkan medikasi dan sudah berat atau kompleks, maka penderita sebaiknya dirujuk ke psikiater. Psikiater umumnya menangani orang yang mengalami gangguan bipolar, depresi yang parah, dan skizofrenia."],
+        "context_set": ""
+       },
+       {"tag": "motivasi",
+        "patterns": ["Motivasi untuk orang depresi", "Beri sebuah motivasi untuk orang depresi", "Apa kalimat yang dapat memotivasi orang depresi?", "butuh motivasi", "beri aku motivasi", "Berikan motivasi", "Berikan aku motivasi", "Sedang depresi,butuh motivasi :("],
+        "responses": ["Masih ada harapan, bahkan walau otakmu memberitahumu tidak ada lagi.", "Depresi bukanlah sebuah tanda kelemahan, itu adalah tanda bahwa kamu sedang mencoba untuk lebih kuat dalam waktu yang lama", "Untuk mendapatkan kehidupan yang lebih baik, yang dibutuhkan hanyalah semangat, percaya diri dan pantang menyerah pada apa yang dicita-citakan.", "angan awali hari dengan penyesalan hari kemarin, karena akan mengganggu hebatnya hari ini, dan akan merusak indahnya hari esok.", "Tak perlu cemas, setiap masalah dalam hidupmu adalah cara Tuhan menunjukkan berkah dan keajaibannya.", "Yakinlah dengan potensimu yang tak terbatas. Satu-satunya batasanmu adalah yang kau tetapkan pada dirimu sendiri.", "Jika putus asa dan ingin menyerah, jangan memaksa untuk terus bergerak. tapi paksalah hati dan pikiran anda untuk menemukan tujuan baru.", "Sukses adalah apa yang terjadi setelah kamu selamat dari semua kekecewaanmu.", "Sakitmu tidak sia-sia. Dia mengajarkan hatimu bahwa kamu bisa bertahan melawan segala keganjilan. Sekarang gunakan kekuatanmu dan maju.", "Jika kamu merasa ingin menyerah, lihat kembali seberapa jauh kamu sudah berjuang."],
+        "context_set": ""
+       },
+       {"tag": "curhat_dong",
+        "patterns": ["curhat dong","mau curhat","butuh teman curhat :(","boleh curhat?", "boleh curhat gak?","curhat"],
+        "responses": ["mau curhat apa?", "saya siap mendengarkan anda","mau curhat apa? saya siap mendengarkan","ada apa?","boleh silahkan", "cerita saja, saya siap jadi teman curhatmu", ""],
+        "context_set": ""
+       },
+       {"tag": "bunuh_diri",
+        "patterns": ["mau bunuh diri","lelah dengan semua ini, mau bunuh diri aja","bunuh diri boleh gak si?","dah ngga kuat lagi, aku mau bunuh diri","bosen hidup","lelah hidup","ngga bisa ngadepin masalah ini","ngga mau hidup","cara bunuh diri",""],
+        "responses": ["Tuhan tidak akan membebani seseorang melainkan sesuai dengan kesanggupannya","Jika kamu pernah berpikir untuk menyerah, ingatlah mengapa kamu bertahan begitu lama","masih banyak orang yang menyayangi kamu", "Bunuh diri tidak menyelesaikan masalahmu. Itu hanya membuat mereka jauh lebih buruk, tak terhitung lagi", "Kisah epik hari esok tidak dapat ditulis jika berakhir hari ini", "Tak perlu cemas, setiap masalah dalam hidupmu adalah cara Tuhan menunjukkan berkah dan keajaibannya", "Jadilah seperti teratai, kita juga harus bangkit dari lumpur, mekar dari kegelapan dan memancar ke dunia","Percayalah pada diri sendiri dan apa adanya. Ketahuilah bahwa ada sesuatu di dalam dirimu yang lebih besar daripada rintangan apa pun", "Pasrahkan dan serahkan semuanya pada Tuhan supaya kita mendapatkan petunjuk"],
+        "context_set": ""
+       }
+   ]
+}

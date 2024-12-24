@@ -1,0 +1,128 @@
+{"intents": [
+        {"tag": "salam",
+         "patterns": ["Hi", "Hallo", "Hey", "Heyho", "Apakah ada orang disana?", "Hello", "Haii", "Apa kabar", "Whats up", "Moshi moshi", "Wassap", "pagi", "siang", "sore", "malam"],
+         "responses": ["Halo selamat datang di Healthbot, silahkan pilih angka yang ingin anda tanyakan : \n 1. Apa itu depresi? \n 2. Apa penyebab depresi? \n 3. Gejala depresi itu apa aja? \n 4. Bagaimana cara mengatasi depresi? \n 5. Kalo terkena depresi harus bagaimana? \n 6. Bahaya depresi itu apa saja? \n 7. Apakah ada obat untuk mengurangi rasa depresi? \n 8. Curhat dong..."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See ya", "See you", "Sampai bertemu lagi", "Selamat tinggal", "Dadah", "Goodbye", "Aku pamit ya"],
+         "responses": ["Bye-bye", "See you", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "terimakasih",
+         "patterns": ["Terima kasih","Terimakasih", "Terimakasih sudah membantu", "Makasih", "Thanks", "Thank you", "Nuhun", "Suwun"],
+         "responses": ["Terima kasih kembali", "Sama-sama", "Dengan senang hati"],
+         "context_set": ""
+        },
+        {"tag": "1",
+         "patterns": ["1.Apa itu depresi?", "Apa itu depresi?", "1"],
+         "responses": ["Depresi adalah suatu kondisi seseorang merasa sedih, kecewa saat mengalami suatu perubahan, kehilangan, kegagalan dan menjadi menderita ketika tidak mampu beradaptasi sehingga mempengaruhi kehidupan fisik, psikis, maupun sosial seseorang."],
+         "context_set": ""
+        },
+        {"tag": "2",
+         "patterns": ["2.Apa penyebab depresi?", "Apa penyebab depresi?", "2"],
+         "responses": ["1. Genetik, biasanya terjadi pada manusia kembar identik monozigot \n 2. kekecewaan yang bersumber dari adanya tekanan \n 3. merasa tidak adil dengan dunia \n 4. dua perasaan yang bertentangan \n 5. penolakan atau penghianatan \n 6. tidak tercapainya suatu tujuan \n 7. kurangnya tempat untuk meluapin suatu kekesalan \n 8. rasa trauma mental maupun psikis"],
+         "context_set": ""
+        },
+        {"tag": "3",
+         "patterns": ["3.Gejala depresi itu apa aja?","Gejala depresi itu apa aja?","3"],
+         "responses": ["1. Kesedihan atau suasana hati yang apatis \n 2. merendahkan diri sendiri, menyalahkan diri sendiri, atau mengkritik problem dan perbuatan diri sendiri \n 3. keinginan untuk menghindari orang lain atau berkehidupan sosial \n 4. tidur tidak teratur, kurangnya nafsu makan \n 5. ketidakmampuan dalam mengambil keputusan, konsentrasi, dan bekerja"],
+         "context_set": ""
+        },
+        {"tag": "4",
+         "patterns": ["4.Bagaimana cara mengatasi depresi?","Bagaimana cara mengatasi depresi?","4"],
+         "responses": ["1. Kontrol pikiran dan fokus pada hal yang positif \n 2. lakukan hal baru yang menyenangkan \n 3. tulis buku harian \n 4. jika dirasa sumbernya dari mendia sosial, kurangi media sosial terlebih dahulu \n5. melakukan relaksasi \n 6. kontrol pertemanan"],
+         "context_set": ""
+        },
+        {"tag": "5",
+         "patterns": ["5.Kalo terkena depresi harus bagaimana?","Kalo terkena depresi harus bagaimana?","5"],
+         "responses": ["1. Dekatkan diri kepada Tuhan yang Maha Esa \n 2. Konsultasikan ke psikiater terdekat \n 3. Cari teman cerita yang terpercaya biar bisa melegakan"],
+         "context_set": ""
+        },
+        {"tag": "6",
+         "patterns": ["6.Bahaya depresi itu apa saja?","Bahaya depresi itu apa saja?","6"],
+         "responses": ["Depresi dapat mengurasi berat badan, nafsu makan, kinerja otak sehingga dapat memicu penyakit kesehatan lainnya. Paling bahayanya adalah tingkat resiko suicidality yang dapat mengancam jiwa"],
+         "context_set": ""
+        },
+        {"tag": "7",
+         "patterns": ["7.Apakah ada obat untuk mengurangi rasa depresi?","Apakah ada obat untuk mengurangi rasa depresi?","7"],
+         "responses": ["Obat yang biasa diresepkan adalah SSRI(selective serotonin reuptake inhibitor) yang berkerja dengan cara mengingkatkan ketersediaan sertonin dalam otak. Serotonin sendiri berperan dalam mengatur suasana hati, nafsu makan, dan fungsi lainnya. \n Tetap saja anda harus meminta resep lebih lanjut ke dokter psikiater."],
+         "context_set": ""
+        },
+        {"tag": "8",
+         "patterns": ["8.Curhat dong...","Curhat dong...","8"],
+         "responses": ["Boleh silahkan"],
+         "context_set": ""
+        },
+        {"tag": "curhat1",
+         "patterns": ["saya punya perasaan sedih berlebihan, mudah emosi, merasa rendah diri, kehilangan minat sama hobi saya"],
+         "responses": ["Keluhan yang anda alami memang mengarah ke depresi. Seseorang dinyakatan mengalami depresi jika sudah 2 minggu merasa sedih, putus asa dan tidak berharga. Penanganan depresi perlunya melakukan konsultasi ke dokter psikietar untuk mendapatkan obat dan terapi, karena jika kondisi ini dialami berkepanjangan bisa menimbulkan komplikasi seperti melukai diri hingga bunuh diri serta adanya gejala halusinasi atau keyakinan tidak wajar.Selain penanganan ke dokter anda juga bisa atasi dengan melakukan beberapa tips seperti : Tidak menyendiri, Gabung atau kumpul dengan keluraga dan teman Lakukan hobi yang anda sukai, Masuk dalam komunitas ,Melakukan relaksasi, Dekat dengan Tuhan dan bedoa "],
+         "context_set": ""
+        },
+        {"tag": "curhat2",
+         "patterns": ["saya merasa risau, hati saya merasa gelisah hingga kadang ingin menangis, cuma kadang tiba-tiba aja muncul rasa gelisah di hati, kaya cemas gak tenang, sampe pengen nangis. Ini cukup mengganggu. apakah saya terkena mental"],
+         "responses": ["Kondisi yang anda alami tanpa tahu sebabnya maka bisa mengarah ke gangguan mental seperti depresi. Seseoranag yang depresi umumnya menunjukan ciri-ciri rasa cemas dan khawatir yang berlebihan, emosi yang tidak stabil, serta rasa putus asa atau frustasi. Anda bisa atasi kondisi anda ini dengan melakukan beberapa tips seperti : Melakukan relaksasi, Melakukan olahraga secara teratur, Berpikiran positif dan tidak terlalu berlebihan berpikir, Membatasi penggunaan sosial media, Menjahui orang yang membawa pengaruh buruk, Dekat dengan Tuhan dan berdoa, Menyibukan diri dengan hal yang postif dan menyenangkan"],
+         "context_set": ""    
+        },
+        {"tag": "curhat3",
+         "patterns": ["saya abis putus cinta lalu mengurung diri di kamar dan menangis-nangis dan teriak-teriak gak karuan. sempet di bawa ke dokter Sp.KJ didiagnosa depresi ringan. obatnya udah abis, kini kumat lagi, sepertinya dia butuh obat penenang untuk depresinya itu. obat penenang yang aman apa ya? soalnya dulu pernah konsumsi obat penenang dari dokter bawaanya dia pengen tidur mulu. mohon jawabannya"],
+         "responses": ["Bagi sebagian orang, putus cinta memang bisa menyisakan tekanan psikis yang mendalam, bahkan memicu gangguan kejiwaan seperti depresi. Tergantung keparahan gejalanya, penyebabnya, dan status kesehatan penderitanya secara umum, penanganan atas depresi ini bisa berbeda-beda.penanganan tidak bisa hanya mengandalkan obat-obatan saja, melainkan harus juga diimbangi dengan psikoterapi. Meski demikian, tidak lantas berarti Anda bebas membeli obat lain untuk memperbaiki kondisi anda. Salah pengobatan yang tidak tepat malah akan bisa menyebabkan anda mengalami efek samping yang berbahaya. lebih aman anda periksa kembali ke psikiater. Dengan begitu, tentu dokter bisa mengatasi kondisinya dengan optimal. Kemukakan pula pada dokter keluhan yang dirasakan, sehingga dokter bisa menyesuaikan pengobatan lanjutan."],
+         "context_set": ""
+        },
+        {"tag": "curhat4",
+         "patterns": ["kedua orang tua saya berpisah baru sebulan ini dan hari-hari kemarin diwarnai pertengkaran orang tua saya. Saya jadi lebih pendiam, murung di malam hari hingga suka begadang. kalo emosi kadang suka ngrusakin barang. Gimana cara mengatasinya untuk anak broken home? "],
+         "responses": ["untuk mengatasi anak broken home perlu sikap andil kedua orang tua. Komunikasi antar anak dan orang tua memiliki peran yang sangat penting,sehingga anak tidak merasa ditinggalkan oleh orang tuanya. saran yang bisa diberi, sebaiknya diskusikan hal ini dengan kedua orang tua kalo tidak bisa coba bicarakan dengan keluarga orang tua, bisa paman ataupun tante."],
+         "context_set": ""
+        },
+        {"tag": "curhat5",
+         "patterns": ["saya merasa khawatir dengan perubahan emosi yang secara tiba-tiba. Saya sering merasa sedih sampai menangis tapi tidak tahu apa penyebabnya, saya ingin pergi ketempat yg tidak ada satu orang pun mengenal saya. saya juga tidak semangat untuk melakukan aktivitas tapi kadang mood senang tapi nanti ttba-tiba bisa anjlok gitu, gimana cara ngatasinnya?"],
+         "responses": ["Sering mengalami perubahan mood dari yang awalnya sedih lantas menjadi senang terlalu drastis bisa jadi menandakan mood swing biasa. Namun, jika keluhan muncul dengan intensitas yang sangat hebat, bisa jadi juga pencetusnya adalah suatu gangguan kejiwaan, seperti gangguan bipolar, gangguan siklotimik, gangguan stres pasca trauma, depresi, gangguan kepribadian ambang, dan sebagainya. Membedakan kondisi-kondisi di atas tidak bisa sembarangan, melainkan harus dengan pendampingan ahli, yakni psikolog atau psikiater. Sementara ini, berikut langkah yang bisa Anda lakukan agar keluhan membaik: Buat diri Anda rileks, isi hari-hari Anda dengan kegiatan positif, Jangan habiskan waktu untuk terlalu banyak menyendiri, Perdekat hubungan Anda dengan Tuhan YME."],
+         "context_set": ""
+        },
+        {"tag": "curhat6",
+         "patterns": ["saya ada keluhan kecemasan hingga beranggapan lebih baik tidak ada di dunia ini. Saya pernah periksakan ke dokter dan dokter bilang saya terkena depresi, Ini saya alami udah 1,7 tahun dokter. Bagaimana cara mengatasi depresi berkepanjangan?"],
+         "responses": ["depresi berkepanjangan tidak ada bedanya dengan depresi lainnya. lakukanlah : Perbaiki kedekatan Anda dengan Tuhan, tingkatkan kualitas ibadah Anda \n Jangan melulu meratapi sesuatu yang buruk dalam hidup Anda, belajarlah untuk sabar dan ikhlas menghadapi ketetapan Tuhan \n Bangun pikiran positif, turunkan ekspektasi Anda, jangan lupa bersyukur atas nikmat yang Tuhan berikan untuk Anda \n Perluas pergaulan Anda, pelajari dan tiru hal-hal baik dari orang di sekitar Anda, jangan segan meminta bantuan agar dicarikan solusi jika Anda sulit mengatasi masalah Anda sendiri \n Isi hari-hari Anda dengan beragam aktifitas yang baik, fokus mengembangkan terus potensi dalam diri Anda \n Hindari membuang banyak waktu untuk mengurung diri, melamun, atau berkhayal yang tidak-tidak \n Sempatkan menghibur diri Anda, seperti dengan berlibur, melampiaskan hobi, berkumpul dengan kerabat tersayang"],
+         "context_set": ""
+        },
+        {"tag": "curhat7",
+         "patterns": ["Saya ingin bertanya mengenai kondisi mental saya. Sebenarnya saya sudah pernah mengalami ini ketika saya masih kuliah semester 1 atau semester 2 dan ketika saya semester 5 atau semester 6. Tapi untuk kasus atau alasan yang berbeda. Entah kenapa, akhir akhir ini saya semakin merasa sedang berada pada fase kehilangan minat pada hal apapun. baik kerjaan maupun hobi yg dulu saya sukai. apakah ini merupakan tanda kalo saya depresi?"],
+         "responses": ["Depresi merupakan salah satu gangguan mental yang termasuk ke dalam gangguan suasana perasaan. Depresi mempunyai gejala yang berlangsung minimal 2 minggu yang ditandai dengan sedih yang mendalam serta mengalami kehilangan minat pada sesuatu yang disenangi. Perasaan yang muncul pada penderita depresi seperti merasa sedih, merasa putus harapan, tidak berharga dan sebagainya. Perlu diketahui bahwa bila mengalami gejala yang demikian dialami maka sebaiknya tidak dibiarkan berlarut-larut dan sebaiknya segera mencari pertolongan agar keluhan tidak memberat. Depresi yang dibiarkan dapat mengganggu aktivitas sehari-hari hingga menimbulkan masalah sosial. Namun perlu diketahui bahwa untuk memastikan depresi harus dilakukan pemeriksaan status mental oleh psikiater karena tidak bisa dilakukan diagnosis sendiri (self diagnosis)."],
+         "context_set": ""
+        },
+        {"tag": "curhat8",
+         "patterns": ["saya ingin bertanya penanganan depresi sedang yang efektif itu bagaimana? apakah masih bisa disembuhkan sendiri atau lebih baik dikonsultasikan kemana? ini saya sudah beberapa bulan soalnya seperti mengalami gejala depresi, awalnya muncul pas saya diputusin pacar, dan makin lama makin parah, bahkan saya pernah mencoba menyakit diri sendiri."],
+         "responses": ["Saran kami, cobalah periksa ke dokter agar didiagnosis penyebab keluhannya tersebut dengan tepat, lantas diberikan juga penanganannya yang terbaik. Secara medis, jika pun benar kondisi yang alami disebabkan oleh depresi, penanganan yang tersedia bisa dilakukan dengan pemberian obat, psikoterapi, terapi kognitif, dan sebagainya."],
+         "context_set": ""
+        },
+        {"tag": "curhat10",
+         "patterns": ["Saya sudah bebrapa bulan ini merasakan malu,kecewa dan benci ke diri saya, saya tidak pernah cerita ke siapapun soal ini,dan selama ini saya bertahan. Karena perasaan tidak berharga terus muncul,saya jadi sering menyakiti diri,awalnya saya hanya sering tiba-tiba menangis,lalu mulai memukul badan,memukul kepala,menampar pipi sendiri. Apakah depresi saya ini masih bisa ditangan secara alami tanpa perlu periksa ke dokter dan minum obat?"],
+         "responses": ["untuk kondisi anda disarankan jika memang sudah menganggu aktivitas harian anda, dan hubungan sosial anda hingga sudah melukai diri sendiri maka sebaiknya melakukan konsultasi ke psikolog atau psikiater untuk mendapatkan pemeriksaan lebih lanjut dan penanganan yang lebih tepat. sembari anda melakukan konsultasi ke dokter anda juga bisa melakukan beberapa tips yang bisa membantu kondisi anda seperti : relaksasi untuk mengatasi stres, batasi penggunaan media sosial, selalu bersyukur dan dekat kepada Tuhan."],
+         "context_set": ""
+        },
+        {"tag": "curhat11",
+         "patterns": ["saya beberapa bulan yg lalu mengalami depresi, tbtb merasa sedih, bahkan ada pikiran untuk bunuh diri. Saya sarankan dia untuk ke psikolog tapi dia terus menolak karena takut akan respon psikolog yg kurang positif dan biaya yg mahal. Kira apa yg bisa saya lakukan? terima kasih"],
+         "responses": ["Pikiran yang sering mendadak sedih hingga terlintas ingin bunuh diri memang bisa jadi merupakan gejala depresi. Sepatutnya, anda memang diperiksakan langsung ke ahlinya, yakni psikolog atau psikiater. Jika khawatir akan biayanya, Anda bisa menggunakan fasilitas kesehatan milik pemerintah yang umumnya lebih terjangkau. Kondisi anda tidak bisa ditangani sembarangan, terlebih hanya berbekal konsultasi singkat semacam ini. Yang bisa anda lakukan sementara ini : Buat diri Anda rileks, isi hari-hari Anda dengan kegiatan positif, Jangan habiskan waktu untuk terlalu banyak menyendiri, Perdekat hubungan anda dengan Tuhan."],
+         "context_set": ""
+        },
+        {"tag": "curhat12",
+         "patterns": ["sepertinya saya sedang menghadapi quater life crisis. saya sering sekali ingin mengakhiri hidup saya , saya merasa putus asa setiap hari , saya merasa hidup saya tidak berguna , saya terus menerus memikirkan hidup saya karena tidak mendapat perhatian dari keluarga dan lingkungan saya, saya merasa sendiri. saya sering menangis sepanjang malam, bagaimana solusi agar saya tidak ada keinginan untuk bunuh diri lagi?"],
+         "responses": ["Menimbang keluhan yang anda alami menggangu aktivitas keseharian (muncul keinginan bunuh diri terus menerus), maka dari itu diperlukan pertolongan dari dokter spesialis Kejiwaan (Sp.KJ)/ psikiater sehingga anda mendapatkan penanganan yang tepat. \n Terkait prosedur pemeriksaan, dokter wajib menjaga kerahasiaan pasien. Sehingga anda tidak perlu ragu untuk memeriksakan diri. \n Apabila anda sudah menjalani rangkaian terapi oleh dokter yang merawat, maka anda perlu berusaha untuk mematuhi nasehat dokter dan kontrol secara berkala sehingga mendapatkan progres terapi yang baik."],
+         "context_set": ""
+        },
+        {"tag": "curhat13",
+        "patterns": ["Akhir-akhir ini saya merasa emosi tidak stabil saat di rumah. Seperti mudah marah, mudah mengeluarkan kata2 kasar, mudah tersinggung. Tapi saat saya berada diluar saya tidak seperti itu. Kira-kira kenapa ya?"],
+        "responses": ["emosi yang tidak stabil atau perubahaan mood yang anda alami mendadak kondisi ini memiliki banyak faktor kemungkinan penyebabnya diantaranya : faktor hormonal seperti sedang menstruasi hamil serta menopause, sedang menghidap penyakit tertentu, depresi, gangguan kepribadian. untuk kondisi anda emosi saat waktu dirumah saja berati ada faktor pemicunya dirumah anda seperti orangnya atau keadaan suasana dirumah tersebut. jadi sebaiknya anda cari tahu apa yang menyebabkan anda emosi jika memang ada masalah dalam keluraga anda coba diselesaikan, atau suasana rumah yang berantakan atau membuat tidak nyaman anda bisa membuat kondisi rumah anda nyaman seingin anda. jadi cari faktor pemicunya atau anda merasa sepi jika saat dirumah coba bawa teman anda kerumah atau komunikasi melalui telpon serta melakukan kegitan seperti menonton. namun jika anda merasa emosi tanpa ada hal yang jelas sebaiknya untuk anda melakukan konsultasi lebih lanjut ke psikolog agar mendapatkan solusi yang lebih tepat."],
+        "context_set": ""
+       },
+       {"tag": "curhat14",
+        "patterns": ["Saya sedang mengalami masa-masa sulit dalam hidup saya. Banyak faktor, mulai dari keluarga, pendidikan, hingga percintaan saya. Masalah dengan keluarga saya muncul sudah sejak saya kecil dan terus berlanjut hingga sekarang, dan sekrang ditambah dengan masalah lainnya hingga membuat dada saya sesak hingga ingin menangis. saya sering menyendiri untuk menangis tapi kenapa ya, kok saya gabisa nnagis juga? air mata saya sulit keluar meskipun saya merasa sedih dann juga dada saya yg udah nyesek, tolong dibantu, saya udah stres banget."],
+        "responses": [" keluhan fisik dapat muncul akibat kesehatan mental yang kurang baik. Rasa sesak di dada yang Anda rasakan dapat menjadi salah satu tanda masalah mental issue. Untuk menegakkan diagnosis dan menyingkirkan diagnosis banding lainnya ada baiknya anda memeriksakan diri Anda ke dokter atau ke dokter jiwa, terlebih jika keluhan yang Anda rasakan sangat mengganggu aktivitas anda sehari-hari seperti; anda sulit tidur, sulit beraktivitas, Anda menjadi lebih pendiam, dan membuat produktivitas Anda berkurang. Jika muncul tanda tersebut Anda sudah membutuhkan pemeriksaan oleh dokter jiwa ya, tidak ada salahnya untuk mencoba ya. Dokter jiwa akan melakukan pemeriksaan lebih lanjut terkait keluhan Anda. Saat ini beberapa hal yang dapat anda lakukan :  Manajemen stress dengan baik, Tidak menyendiri, Jauhkan diri Anda dari hal atau benda berbahaya, Istirahat cukup"],
+        "context_set": ""
+       },
+       {"tag": "curhat15",
+        "patterns": ["semenjak saya gagal kuliah, saya merasa ada yang berbeda dengan perilaku saya. Saya jadi emosional dan cenderung ingin sendiri, mudah sekali perubahan emosi dan sering kali marah-marah. Apakah itu mengarah pada perilaku Depresi? penyebab dan cara mengatasinya gimana ya?"],
+        "responses": ["Saat mengalami kegagalan dalam mencapai sesuatu dapat membuat seseorang menjadi kecewa merupakan hal yang wajar. Hal tersebut merupakan sebuah proses untuk menerima kegagalan. Namun sebaiknya proses kekecewaan tersebut sebaiknya tidak berlarut-larut karena dapat mengganggu aktivitas sehari-hari. Mengenai perubahan emosi sebaiknya dapat melakukan refreshing dan beristirahat terlebih dahulu untuk dapat mengontrol emosi, lalu dapat berpikiran positif, melakukan hobi yang disukai, sebelum bertindak dapat berpikir dahulu serta untuk menentukan apakah depresi atau tidak harus dilakukan pemeriksaan lebih lanjut. Sebaiknya bila keluhan telah dirasakan mengganggu dapat melakukan pemeriksaan ke dokter atau ke psikolog."],
+        "context_set": ""
+       }
+   ]
+}
